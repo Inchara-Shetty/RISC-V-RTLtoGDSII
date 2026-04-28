@@ -27,8 +27,8 @@ Stage | Script | Key Tasks
 
 
 ## 🛠 Setup & Usage
-Prerequisites
-Synopsys Design Compiler, Library Compiler, IC Compiler II.
+Prerequisites: 
+Synopsys Library Compiler, Design Compiler, IC Compiler II.
 
 Access to the [TSMC N16] PDK.
 
