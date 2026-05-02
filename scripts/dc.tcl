@@ -45,8 +45,6 @@ check_design
 ####################################################################
 # READ constraints
 # ##################################################################
-
-
 source $SDC_PATH
 
 ####################################################################
@@ -58,9 +56,9 @@ file mkdir reports
 file mkdir netlist
 
 report_clock_gating > reports/clock_gating_$DESIGN.rpt
-report_timing > reports/timing_{$DESIGN}.rpt
-report_power > reports/power_{$DESIGN}.rpt
-report_area > reports/area_{$DESIGN}.rpt
+report_timing > reports/timing_$DESIGN.rpt
+report_power > reports/power_$DESIGN.rpt
+report_area > reports/area_$DESIGN.rpt
 
 write -hierarchy -format verilog -output netlist/$DESIGN_netlist.v
 write_sdc netlist/$DESIGN_synth.sdc
