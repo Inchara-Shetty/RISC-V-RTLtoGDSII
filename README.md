@@ -23,7 +23,8 @@ Stage | Script | Key Tasks
 02 Floorplan | 02_floorplan.tcl | Macro placement, I/O pin assignment, PG-Mesh creation.
 03 Placement | 03_placement.tcl | Global & Detail placement, high-fanout net synthesis.
 04 CTS | 04_cts.tcl | Clock tree synthesis, skew minimization ($< 50ps$).
-05 Route | 05_routing.tcl | ZRT detail routing, DRC/LVS cleanup.06 Sign-off06_finish.tclMetal fill, GDSII export.
+05 Route | 05_routing.tcl | detail routing, DRC/LVS cleanup.
+06 Sign-off | 06_finish.tcl | STA, Power analysis, GDSII export.
 
 
 ## 🛠 Setup & Usage
